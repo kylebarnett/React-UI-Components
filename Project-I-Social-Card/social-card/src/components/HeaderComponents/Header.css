@@ -1,4 +1,44 @@
 /* All styles for your header Components live here */
-div {
+/* div {
   color: red;
+} */
+
+.main-container {
+  display: flex;
+}
+
+.lambda-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.header-title-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h2 {
+  color: grey;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.time {
+  padding: 10px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
 }
