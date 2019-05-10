@@ -4,8 +4,10 @@ import ActionButton from '../ButtonComponents/ActionButton'
 
 const CalculatorDisplay = (props) => {
   return (
-    <div>
-      <h1>{props.message.something}</h1>
+    <div className="calc-display">
+      <div>
+        0
+      </div>
     </div>
   )
 }

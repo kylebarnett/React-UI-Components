@@ -5,13 +5,10 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   
-  const message = {
-    something: 'Hello does this work?'
-  }
   return (
-    <div>
-      <CalculatorDisplay message={message}/>
-      <ActionButton message={message}/>
+    <div class="app-container">
+      <CalculatorDisplay />
+      <ActionButton />
     </div>
   );
 };

@@ -4,7 +4,9 @@ import './Button.css';
 const ActionButton = (props) => {
   return (
     <div>
-      <h1>{props.message.something}</h1>
+      <button> clear </button>
+      <button> / </button>
+      <button> 0 </button> 
     </div>
   )
 }
