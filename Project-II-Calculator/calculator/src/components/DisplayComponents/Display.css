@@ -5,6 +5,10 @@
   height: 15%;
   width: 100%;
   color: white;
-  font-size: 50px;
+  font-size: 75px;
   background-color: black;
+}
+
+.number {
+  margin-right: 10px;
 }

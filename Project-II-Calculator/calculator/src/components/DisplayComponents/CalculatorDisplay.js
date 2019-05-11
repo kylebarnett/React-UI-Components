@@ -1,11 +1,10 @@
 import React from 'react';
 import './Display.css';
-import ActionButton from '../ButtonComponents/ActionButton'
 
 const CalculatorDisplay = (props) => {
   return (
     <div className="calc-display">
-      <div>
+      <div className="number">
         0
       </div>
     </div>

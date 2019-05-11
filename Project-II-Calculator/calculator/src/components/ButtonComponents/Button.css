@@ -1,0 +1,19 @@
+.individualButtons {
+  height: 100px;
+  width: 100%;
+  font-size: 45px;
+}
+
+/* .number-container {
+  display: flex;
+  width: 100%;
+} */
+
+.red {
+  background: crimson;
+  color: white;
+}
+
+.ghost-white {
+  background: ghostwhite
+}
