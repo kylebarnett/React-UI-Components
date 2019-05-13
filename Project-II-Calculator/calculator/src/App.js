@@ -9,10 +9,20 @@ const App = () => {
   return (
     <div className="app-container">
       <CalculatorDisplay />
-      <ActionButton
-        buttonStyle="white"
-        text="clear"
-      />
+      <div className="button-container">
+        <div className="button">
+          <ActionButton
+            buttonStyle="white"
+            text="clear"
+          />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="red"
+            text="/"
+          />
+        </div>
+      </div>
       <div className="button-container">
         <div className="button">
           <NumberButton
@@ -79,11 +89,21 @@ const App = () => {
             text="+" />
         </div>
       </div>
-      <ActionButton
-        buttonStyle="white"
-        text="0"
-      />
-    </div>
+      <div className="button-container">
+        <div className="button">
+          <ActionButton
+            buttonStyle="white"
+            text="0"
+          />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="red"
+            text="="
+          />
+        </div>
+      </div>
+    </div >
   );
 };
 
