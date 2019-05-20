@@ -1,22 +1,109 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
+
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
+    <div className="app-container">
+      <CalculatorDisplay />
+      <div className="button-container">
+        <div className="button">
+          <ActionButton
+            buttonStyle="white"
+            text="clear"
+          />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="red"
+            text="/"
+          />
+        </div>
+      </div>
+      <div className="button-container">
+        <div className="button">
+          <NumberButton
+            buttonStyle="ghost-white"
+            text="7" />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="ghost-white"
+            text="8" />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="ghost-white"
+            text="9" />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="red"
+            text="X" />
+        </div>
+      </div>
+      <div className="button-container">
+        <div className="button">
+          <NumberButton
+            buttonStyle="ghost-white"
+            text="4" />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="ghost-white"
+            text="5" />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="ghost-white"
+            text="6" />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="red"
+            text="-" />
+        </div>
+      </div>
+      <div className="button-container">
+        <div className="button">
+          <NumberButton
+            buttonStyle="ghost-white"
+            text="1" />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="ghost-white"
+            text="2" />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="ghost-white"
+            text="3" />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="red"
+            text="+" />
+        </div>
+      </div>
+      <div className="button-container">
+        <div className="button">
+          <ActionButton
+            buttonStyle="white"
+            text="0"
+          />
+        </div>
+        <div className="button">
+          <NumberButton
+            buttonStyle="red"
+            text="="
+          />
+        </div>
+      </div>
+    </div >
   );
 };
 

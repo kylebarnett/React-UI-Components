@@ -1,0 +1,30 @@
+.app-container {
+  height: 100%;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+.basicButtonStyles {
+  height: 100px;
+  width: 100%;
+  background: white;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.white {
+  background: ghostwhite;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 100%;
+}
+

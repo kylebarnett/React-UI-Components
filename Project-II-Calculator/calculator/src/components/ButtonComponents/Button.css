@@ -1,0 +1,20 @@
+.individualButtons {
+  height: 100px;
+  width: 100%;
+  font-size: 45px;
+}
+
+.something {
+  height: 100px;
+  width: 375px;
+  font-size: 45px;
+}
+
+.red {
+  background: crimson;
+  color: white;
+}
+
+.ghost-white {
+  background: ghostwhite
+}
